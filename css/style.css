@@ -1,0 +1,914 @@
+/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
+ 2) font-family: 'Poppins', sans-serif;
+ ----------------------------------------*****/
+
+
+/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
+
+@import url(animate.min.css);
+@import url(normalize.css);
+@import url(icomoon.css);
+@import url(css/font-awesome.min.css);
+@import url(meanmenu.css);
+@import url(owl.carousel.min.css);
+@import url(swiper.min.css);
+@import url(slick.css);
+@import url(jquery.fancybox.min.css);
+@import url(jquery-ui.css);
+@import url(nice-select.css);
+
+/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+
+* {
+    box-sizing: border-box !important;
+    transition: ease all 0.5s;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden !important;
+}
+
+body {
+    color: #666666;
+    font-size: 14px;
+    font-family: Poppins;
+    line-height: 1.80857;
+    font-weight: normal;
+    overflow-x: hidden !important;
+}
+
+a {
+    color: #1f1f1f;
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 0;
+    font-weight: normal;
+    position: relative;
+    padding: 0 0 10px 0;
+    font-weight: normal;
+    line-height: normal;
+    color: #111111;
+    margin: 0
+}
+
+h1 {
+    font-size: 24px
+}
+
+h2 {
+    font-size: 22px
+}
+
+h3 {
+    font-size: 18px
+}
+
+h4 {
+    font-size: 16px
+}
+
+h5 {
+    font-size: 14px
+}
+
+h6 {
+    font-size: 13px
+}
+
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: #212121;
+    text-decoration: none!important;
+    opacity: 1
+}
+
+button:focus {
+    outline: none;
+}
+
+ul,
+li,
+ol {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+p {
+    margin: 20px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+a {
+    color: #222222;
+    text-decoration: none;
+    outline: none !important;
+}
+
+a,
+.btn {
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ :focus {
+    outline: 0;
+}
+
+.paddind_bottom_0 {
+    padding-bottom: 0 !important;
+}
+
+.btn-custom {
+    margin-top: 20px;
+    background-color: transparent !important;
+    border: 2px solid #ddd;
+    padding: 12px 40px;
+    font-size: 16px;
+}
+
+.lead {
+    font-size: 18px;
+    line-height: 30px;
+    color: #767676;
+    margin: 0;
+    padding: 0;
+}
+
+.form-control:focus {
+    border-color: #ffffff !important;
+    box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
+}
+
+.navbar-form input {
+    border: none !important;
+}
+
+.badge {
+    font-weight: 500;
+}
+
+blockquote {
+    margin: 20px 0 20px;
+    padding: 30px;
+}
+
+button {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.full {
+    float: left;
+    width: 100%;
+}
+
+.layout_padding {
+    padding-top: 90px;
+    padding-bottom: 0px;
+}
+
+
+/* header section start */
+
+.header_section {
+    padding: 20px 0px;
+}
+
+.logo {
+    width: 15%;
+    float: left;
+    position: relative;
+}
+
+.menu_text{
+    width: 22%;
+    height: 40px;
+    float: right;
+    position: relative;
+}
+
+.menu_main{
+    margin-top: 15px;
+}
+.menu_main ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu_main li {
+    font-size: 20px;
+    color: #385a64;
+    float: left;
+    margin-left: 10px;
+}
+
+.menu_main li a {
+    color: #385a64;
+    padding-left: 10px;
+}
+
+.menu_main li a:hover {
+    color: #3674f2;
+}
+
+.bg-dark {
+    background-color: rgba( 54, 14, 14, 0.5)!important;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.overlay a {
+    padding: 0px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay-content a:hover{
+    color: rgb(4,122,162);
+}
+
+.toggle_menu {
+    top: 8px;
+    position: relative;
+    left: 0px;
+}
+/* header section end */
+
+/*video section starts*/
+    #videowrapper{  
+        position: relative;
+        overflow: hidden;
+        margin-top: -20px;
+    } 
+
+    #fullScreenDiv{
+        min-height: 100%; 
+        height: 90vh;
+        width: 100vw;
+        padding:0;
+        margin: 0;
+        background-color: gray;
+        position: relative;
+    }
+
+    #video{    
+        width: 100vw; 
+        height: auto;
+        margin: auto;
+        display: block;
+    }
+    @media (min-aspect-ratio: 16/9) {
+      #video{
+        width: 100vw; 
+        height:auto;
+      }
+    }
+
+    @media (max-aspect-ratio: 16/9) {
+      #video {
+        height: 100vh; 
+        width:auto;
+        margin-left: 50vw;
+        transform: translate(-50%);
+      }
+    }
+
+    #videoMessage{
+    color: white;
+    width: 100%; 
+    height: 100%;
+    position: absolute; 
+    top: 50px; 
+    left: 50px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    }
+
+#videoMessage h1{
+    color: white;
+    font-size: 55px;
+}
+
+#videoMessage p{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 217, 83);
+}
+/*video section ends3/
+
+/*about us section starts*/
+.aboutus{
+    background-color: black;
+    min-height: 300px;
+}
+
+.aboutus h1{
+    color: white;
+    line-height: 45px;
+}
+
+.aboutus2{
+    background-color: rgb(200,191,231);
+    min-height: 250px;
+}
+
+.typed::before {
+        color: #bf00ff;
+        font-size: 40px;
+        letter-spacing: 2px;
+        content: "WE GIVE YOUR BUSINESS THE RIGHT SUPPORT TO SCALE";
+        animation: animate infinite 7s;
+        padding-left: 10px;
+    }
+  
+    @keyframes animate {
+  
+        0% {
+            content: "WE PRIOTIZE DIGITAL TRANSFROMATION AND INNOVATION";
+            color: red;
+            }
+  
+        50% {
+            content: "BUILDING SCALABLE PRODUCTS USING THE LATEST TECHNOLOGIES";
+            color: rgb(207, 27, 189);
+            }
+
+        100% {
+            content: "MAKING YOUR BUSINESS STAND OUT AGAINST ALL ODDS";
+            color: blue;
+            }         
+       }
+
+/*about us section starts*/
+    .project{
+        margin-top: 150px;
+    }
+
+    .text {
+        color: silver;
+        margin-top: 20px;
+        margin-left: -70px;
+        border: 1px light grey;
+        /*min-height: 150px;*/
+        background-color: silver; /*rgb(4,122,162);*/
+        border-radius: 20px 20px;
+    }
+
+    .text h1{
+        font-weight: bold;
+        color: black;
+    }
+
+    .text p{
+        color: black;
+    }
+
+    .project span{
+        font-size: 17px;
+    }
+
+    .projectimage img{
+        border-radius: 20px 20px;
+    }
+
+    .projectimage{
+        min-height: 400px;
+        transition: transform 2.8s; /* Animation */
+    }
+
+    .projectimage:hover {
+        transform: scale(0.6);
+    }
+
+    .animated {
+     color: rgb(4,122,162);
+     margin-left: 25px;
+     font-size: 18px;
+     font-weight: bold;
+     text-decoration: none;
+     background: linear-gradient(to right, rgb(4,122,162) 50%, rgb(255, 217, 83) 50%, #FF5858);
+     background-size: 200%;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     transition: 0.5s ease-out;
+    }
+
+    .animated:hover {
+     background-position: -100%;
+    }
+    /*About us section ends*/
+
+    /*Our services section starts*/
+
+        ul.services {
+          position: relative;
+          display: flex;
+          border: 1px light grey;
+          background-color: black;
+          border-radius: 25px 25px;
+        }
+
+        li {
+          list-style: none;
+        }
+
+        label {
+          position: relative;
+        }
+
+        #services{
+            margin-top: 150px;
+        }
+
+        #services p{
+            font-size: 17px;
+        }
+        .services h1{
+            font-weight: bold;
+            margin-top: 5px;
+            color: silver;/*rgb(218, 218, 218);*/
+        }
+
+        .services div {
+          position: relative;
+          height: 50px;
+          width: 40px;
+          background: #18191f;
+          color: #555;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 46px;
+          cursor: pointer;
+          margin: 0 4px;
+          border-radius: 20px;
+          box-shadow: -1px -1px 4px rgba(255, 255, 255, 0.05),
+            4px 4px 6px rgba(0, 0, 0, 0.2),
+            inset -1px -1px 4px rgba(255, 255, 255, 0.05),
+            inset 1px 1px 1px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="checkbox"] {
+          position: absolute;
+          opacity: 0;
+          cursor: pointer;
+          height: 50px;
+          width: 80px;
+          z-index: 100;
+        }
+
+        input[type="checkbox"]:checked ~ div {
+          box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.05),
+            inset 4px 4px 6px rgba(0, 0, 0, 0.2);
+          color: yellow;
+          text-shadow: 0 0 15px yellow, 0 0 25px yellow;
+          animation: glow 1.5s linear infinite;
+        }
+
+        @keyframes glow {
+          0% {
+            filter: hue-rotate(0deg);
+          }
+          100% {
+            filter: hue-rotate(360deg);
+          }
+        }
+        /*Services section ends*/
+
+        /*Testimonial section starts*/
+    
+    .testimonial{
+        margin-top: 150px;
+        margin-left: 50px;
+
+    }
+
+    .testimonial h1{
+        color: rgb(255, 217, 83) ;
+        font-weight: bold;
+    }
+
+   .testimonial p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 50px;
+   }
+
+   .carousel-item{
+    margin-top: 40px;
+   }
+
+   .image img{
+    border-radius: 10px 10px;
+   }
+
+   .vl{
+    border-left: 1px solid grey;
+    height: 400px;
+   }
+   /*testimonial section ends here*/
+
+   /*Blog section starts here*/
+   .blog{
+    margin-top: 100px;
+     margin-left: 50px;
+   }
+
+   .blog h1{
+    margin-top: 50px;
+    font-size: 40px;
+   }
+
+   .blog p{
+    font-size: 20px;
+    line-height: 35px;
+    margin-left: -1px;
+   }
+
+   .date{
+    color: rgb(4,122,162);
+    font-weight: 500;
+   }
+
+.card{
+    min-height: 200px;
+    overflow: hidden;
+}
+
+.card img {
+  transition: transform 1.2s ease;
+}
+
+.card:hover img{
+  transform: scale(1.2);
+  
+}
+
+.card:hover p{
+    text-decoration: underline;
+}
+
+.background{
+    background-color: rgb(250, 250, 250);
+    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
+    margin-left: -15px;
+    margin-right: -15px;
+}
+/*End of blog page*/
+
+/*Start of get in touch section*/
+.intouch{
+    min-height: 300px;
+    background-image: linear-gradient(to right, rgba(128,0,255,0.2), rgba(108,209,238));
+    animation: mymove 3s infinite;
+}
+
+@keyframes mymove {
+  from {background-color: rgb(227, 100, 217);}
+  to {background-color: rgba(4,122,162,0.5)};
+}
+
+.intouch h1{
+    margin-top: 80px;
+    font-size: 50px;
+}
+
+.intouch button{
+    border-radius: 20px 20px;
+    transition: transform 0.1s ease;
+}
+
+.intouch:hover button{
+    transform: scale(1.2);
+}
+
+/*Footer section starts*/
+.footer{
+    background-color: black;
+    color: white;
+    min-height: 300px;
+}
+
+.footer a,h4, h2 {
+    color: white;
+}
+
+.footer a:hover{
+    color: rgb(4, 122, 162);
+}
+/*End of footer section */
+
+
+
+/*Contact us page starts here*/
+
+.intro {
+    font-size: 40px;
+    margin-top: 20px;
+    color: white;
+}
+
+.boxes{
+    border: 1px solid silver; /*dotted, dashed,solid, double,groove,ridge,inset,outset,hidden*/
+    border-radius: 10px;
+    height: 150px;
+    color: white;
+}
+
+.boxes p:hover{
+    text-decoration: underline;
+    text-shadow: 10px;
+}
+
+.boxes h3:hover{
+    color: rgb(255, 217, 83);
+}
+
+.boxes h3{
+    letter-spacing: 2px;
+    color: #5bc0de;
+}
+
+div.boxes:hover{
+    border: 2px solid;
+    border-color: linear-gradient(to right, rgba(128,0,255,0.2), rgba(108,209,238)); /*purple;*/
+     animation: change 3s infinite;
+}
+
+@keyframes change {
+  from {border-color: rgb(227, 100, 217);}
+  to {border-color: rgba(4,122,162,0.5)};
+}
+
+.wrap{
+    background-color:rgb(39, 44, 78);
+    margin-left: -20px;
+    margin-right: -20px;
+    min-height: 500px;
+}
+
+/*Contact us page ends here*/
+
+/*Project enquiries form*/
+
+.form1{
+    font-size: 40px;
+}
+
+::placeholder{
+    font-size: 16px;
+}
+
+/*Project enquiries form ends here*/
+
+/*About us page starts here*/
+
+.about h1{
+    margin-top: 70px;
+    margin-left: 30px;
+    font-size: 35px;
+    line-height: 60px;
+}
+
+.about p{
+    margin-left: 30px;
+    font-size: 19px;
+    line-height: 35px;
+    letter-spacing: 1.5px;
+    font-weight: normal;
+}
+
+.purpose{
+    margin-top:200px;
+    background-color: rgb(39, 44, 78);
+    width: 92.7%;
+    color: white;
+}
+
+.purpose h1{
+    color: rgb(255, 217, 83);
+}
+.purpose img{
+    margin-top: -120px;
+}
+
+.team{
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.team img{
+    margin-top: 70px;
+    border-radius: 5px;
+}
+
+
+
+
+/*Our Services page starts here*/
+
+.transform h1{
+    font-size: 47px;
+    letter-spacing: 2px;
+    margin-top: -20px;
+    margin-left: 35px;
+
+}
+
+.transform h3{
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-style: italic;
+    margin-left: 35px;
+    color: rgb(255, 217, 83);
+}
+
+.services1 p{
+    font-size: 18px;
+    margin-left: 35px;
+    line-height: 35px;
+}
+
+.services1 li{
+    margin-bottom: -10px;
+}
+
+.services1 li p::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  margin-right: 30px;
+  width: 25px;
+  height: 3px;
+  background: #17a2b8;
+  vertical-align: middle;
+}
+
+.services1 a{
+    margin-left: 31px;
+    border-width: 2px;
+}
+
+.services2 h1{
+    color: white;
+    font-size: 36px;
+    letter-spacing: 2px;
+    margin-left: 40px;
+    margin-top: 150px;
+}
+
+.services2 p{
+    color: white;
+    font-size: 18px;
+    margin-left: 40px;
+    line-height: 35px;  
+}
+
+.background2{
+    background-color: #17a2b8;
+    clip-path: polygon(0 0, 100% 6%, 100% 94%, 0 100%);   /*0 90%*/
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.services3 p{
+    font-size: 18px;
+    margin-left: 40px;
+    line-height: 35px; 
+    color: white; 
+}
+
+.services3 li p::before{
+    content: "";
+    display: inline-block;
+    position: relative;
+    margin-right: 30px;
+    width: 25px;
+    height: 3px;
+    background: rgb(255, 217, 83);
+    vertical-align: middle;
+}
+
+.head{
+     margin-top: 120px;
+}
+
+.head2{
+    margin-bottom: 110px;
+}
+
+.background3{
+    margin-top: -200px;
+    background-color:rgb(39, 44, 78);
+    clip-path: polygon(0% 7%, 100% 0%, 100% 100%, 0% 100%);
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.gif1{
+    margin-top: 120px;
+}
+
+.gif2{
+    margin-top: 300px;
+}
+
+#gif4{
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+.gif5{
+    margin-top: 150px;
+}
+
+/*Back to the top arrow start*/
+.fixed{
+        position: fixed;
+        /*top: 600px;*/
+        bottom: 0px;
+        right: 0px;
+    }
+
+.fixed a{
+    color: rgb(255, 217, 83);;
+}
+/*back to top arrow stop*/
